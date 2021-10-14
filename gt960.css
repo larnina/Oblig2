@@ -53,43 +53,46 @@ header {
     background-attachment: fixed;
     background-position: top;
     background-size: cover;  
-    margin-bottom: 4rem;
-    top: 4rem;
+    
 }
 
 header > div { /* Flytte den lengre ned */
+    
     background-color: #c5192d;   
     position: relative;
-    top: 10rem;
-    padding: 2rem;
+    top: 15rem;
     color: white;
-    width: 85%;
-    max-width: 100%;
+    width: 85%;  
     margin: auto;
     text-align: center;
+    padding: 2rem 0 2rem 0;
 }
 
 header > div p {
     display: block;
     margin: auto;
+    padding: 0 0.5rem 0 0.5rem;
 }
 
 main {
     box-shadow: 0 0 1px 0 darkgrey;
     background-color: whitesmoke;
     width: 85%;
-    margin: auto;
+    margin: 0 auto;
     margin-bottom: 2rem;
+    margin-top: 4rem;
+    
 }
 
 footer {
     color: #ffffff;
     background-color: #c5192d;
     width: 85%;
-    padding: 2rem;
     margin: auto;
     text-align: center;
+    padding: 2rem 0 2rem 0;
 }
+
 
 footer > p {
     display: block;
@@ -99,65 +102,72 @@ footer > p {
 article {
     padding: 2rem;
     display: inline-block;
-    width: 85%;
-    box-sizing: border-box;
+    margin: 0 auto;
+    font-size: 0;
 }
 
-article:nth-of-type(2) {
+article:nth-of-type(3) {
     border-bottom: 0.1px solid grey;
+    border-top: 0.1px solid grey;
+    padding: -2rem;
 }
 
 #intro-container {
     content: " ";
     display: block;
     margin-top: 2rem;
-    margin-bottom: 2rem;
-
+    font-size: 0;
+    margin-bottom: 0;
+    padding: 0;
+    border-bottom: 0.1px solid grey;
 }
 
 #intro-container > div:first-of-type {
     width: 45%;
-    height: 100%;
     vertical-align: middle;
     display: inline-block;
     background-color: #c5192d;
+    padding-left: 5%;
+    margin: 0;
+    border:0;
+    
 }
 
 #intro-container > div:nth-of-type(2)  {
-    width: 45%;
-    height: 100%;
+    width: 45%;   
     vertical-align: middle;
     display: inline-block;
+    font-size: 16px;
+    line-height: 1.5;
+    padding-left: 5%;
 }
 
 article:nth-child(2) > img, article:nth-child(4) > img {
     width: 45%;
-    height: 100%;
+   
     vertical-align: middle;
     display: inline-block;
-    top: 0;
-    left: 0;
+    padding-left: 5%;
 }
 
 article:nth-child(2) > div, article:nth-child(4) > div {   
     width: 45%;
-    height: 100%;
+ 
     vertical-align: middle;
     display: inline-block;
+    padding-right: 5%;
 }
 
 article:nth-child(3) > img {
     width: 45%;
-    height: 100%;
     vertical-align: middle;
     display: inline-block;
-    top: 0;
-    right: 0;
+    padding-right: 5%;
 }
 
 article:nth-child(3) > div {
     width: 45%;
-    height: 100%;
+  
     vertical-align: middle;
     display: inline-block;
 }
@@ -188,3 +198,6 @@ a {
     color: #ffffff;
 }
 
+main > article img {
+    object-position: right top;
+}
