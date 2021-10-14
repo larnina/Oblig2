@@ -60,13 +60,18 @@ header {
 header > div {
     background-color: #c5192d;
     position: absolute;
-    top: 4rem;
-    left: 2rem;
+    top: 10rem;
+    left: 4rem;
     padding: 2rem;
     color: white;
     width: 85%;
     margin: auto;
     text-align: center;
+}
+
+header > div p {
+    display: block;
+    margin: auto;
 }
 
 main {
@@ -76,7 +81,6 @@ main {
     margin: auto;
     margin-bottom: 2rem;
 }
-
 
 footer {
     color: #ffffff;
@@ -95,8 +99,6 @@ article {
 article:nth-child(2) {
     border-bottom: 0.1px solid grey;
 }
-
-
 
 img {
     width: 100%;
