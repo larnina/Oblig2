@@ -60,11 +60,11 @@ header {
 header > div {
     background-color: #c5192d;   
     position: relative;
-    top: 10rem;
-    padding: 2rem;
+    top: 8rem;
+    margin-bottom: 4rem;
+    padding: 2rem 0 2rem 0;
     color: white;
-    width: 95vw;
-  
+    width: 95vw; 
     margin: auto;
     text-align: center;
 }
@@ -75,15 +75,15 @@ main {
     width: 95vw;
     margin: auto;
     margin-bottom: 2rem;
+    margin-top: 2rem;
+    
 }
-
 
 footer {
     color: #ffffff;
     background-color: #c5192d;
-    width: 100;
-    max-width: 95vw;
-    padding: 2rem;
+    padding: 1rem 0 1rem 0;
+    width: 95vw;
     margin: auto;
     text-align: center;
 }
@@ -95,8 +95,6 @@ article {
 article:nth-child(2) {
     border-bottom: 0.1px solid grey;
 }
-
-
 
 img {
     width: 100%;
