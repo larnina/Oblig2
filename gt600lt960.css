@@ -59,12 +59,12 @@ header {
 
 header > div {
     background-color: #c5192d;
-    position: absolute;
+    position: relative;
     top: 10rem;
-    left: 4rem;
     padding: 2rem;
     color: white;
     width: 85%;
+    max-width: 100%;
     margin: auto;
     text-align: center;
 }
@@ -90,6 +90,11 @@ footer {
     padding: 2rem;
     margin: auto;
     text-align: center;
+}
+
+footer > p {
+    display: block;
+    margin: auto;
 }
 
 article {
