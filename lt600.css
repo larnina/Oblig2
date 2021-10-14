@@ -63,8 +63,8 @@ header > div {
     top: 4rem;
     padding: 2rem;
     color: white;
-    max-width: 100%;
-    width: 95vw;
+    /* max-width: 100%; */
+    max-width: 95vw;
     margin: auto;
 }
 
