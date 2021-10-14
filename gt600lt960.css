@@ -48,7 +48,7 @@ h2 {
 }
 
 header {
-    height: 55vh;
+    height: 65vh;
     background-image: url('assets/img/studentsbg.png');
     background-attachment: fixed;
     background-position: top;
@@ -57,8 +57,8 @@ header {
     top: 4rem;
 }
 
-header > div {
-    background-color: #c5192d;
+header > div { /* Flytte den lengre ned */
+    background-color: #c5192d;   
     position: relative;
     top: 10rem;
     padding: 2rem;
@@ -85,7 +85,6 @@ main {
 footer {
     color: #ffffff;
     background-color: #c5192d;
-    width: 100;
     width: 85%;
     padding: 2rem;
     margin: auto;
@@ -99,6 +98,11 @@ footer > p {
 
 article {
     padding: 2rem;
+    display: inline-block;
+}
+
+article > div:first-of-type {
+
 }
 
 article:nth-child(2) {
