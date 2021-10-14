@@ -1,0 +1,106 @@
+@font-face {
+    font-family: 'latoregular';
+    src: url('lato-regular-webfont.woff2') format('woff2'),
+         url('lato-regular-webfont.woff') format('woff'),
+         url('lato-regular-webfont.ttf') format('truetype'),
+         url('lato-regular-webfont.svg#latoregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'montserratbold';
+    src: url('montserrat-bold-webfont.woff2') format('woff2'),
+         url('montserrat-bold-webfont.woff') format('woff'),
+         url('montserrat-bold-webfont.ttf') format('truetype'),
+         url('montserrat-bold-webfont.svg#montserratbold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+html, body {
+    margin: 0 auto;
+    background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+}
+
+p {
+    font-size: 1.2rem;
+    width: 70ch;
+    line-height: 1.5;
+}
+
+h1, h2, h3 {
+    font-family: 'montserratbold', sans-serif;
+}
+
+h1 {
+    font-size: 4rem;
+}
+
+h2 {
+    font-size: 2.2rem;
+}
+
+header {
+    height: 65vh;
+    background-image: url('assets/img/studentsbg.png');
+    background-attachment: fixed;
+    background-position: top;
+    background-size: cover;  
+}
+
+header > div {
+    background-color: #c5192d;
+    position: relative;
+    top: 4rem;
+    padding: 2rem;
+    color: white;
+}
+
+main {
+    box-shadow: 0 0 1px 0 darkgrey;
+    background-color: whitesmoke;
+    width: 95vw;
+    margin: auto;
+}
+
+article {
+    padding: 2rem;
+}
+
+.intro-container {
+    margin-bottom: 2rem;
+}
+
+.intro-container::after {
+   display: block;
+   background-color: #c5192d;
+   content: " ";
+}
+
+ul li {
+    list-style-type: none;
+
+}
+ 
+ul li:first-of-type::before {
+    content: "\1F64C";
+    width: 1rem;
+    margin: 1rem 1rem 0 1rem;
+}
+
+ul li:nth-child(n+2)::before {
+    content: "\1F3EB";
+    width: 1rem;
+    margin: 1rem 1rem 0 1rem;
+}
+
+ul li:last-of-type::before {
+    content: "\1F4DA";
+    width: 1rem;
+    margin: 1rem 1rem 0 1rem;
+}
