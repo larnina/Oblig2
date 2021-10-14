@@ -121,7 +121,7 @@ ul li:first-of-type::before {
     margin: 1rem 1rem 0 1rem;
 }
 
-ul li:nth-child(n+2)::before {
+ul li:nth-child(2)::before {
     content: "\1F3EB";
     width: 1rem;
     margin: 1rem 1rem 0 1rem;
