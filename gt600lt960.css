@@ -59,12 +59,14 @@ header {
 
 header > div {
     background-color: #c5192d;
-    position: relative;
+    position: absolute;
     top: 4rem;
+    left: 50%;
     padding: 2rem;
     color: white;
     width: 85%;
-    margin: 0 auto;
+    margin: auto;
+    text-align: center;
 }
 
 main {
