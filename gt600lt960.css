@@ -52,18 +52,18 @@ header {
     background-image: url('assets/img/studentsbg.png');
     background-attachment: fixed;
     background-position: top;
-    background-size: auto;  
-    
+    background-size: cover;  
+    position: relative;
 }
 
 header > div {  
     background-color: #c5192d;   
-    position: relative;
-    top: 4rem;
+    position: absolute;
+    bottom: -4rem;
+    left: 15%;
     color: white;
-    width: 70%; 
-    height: auto; 
-    margin: auto;
+    width: 70%;  
+    margin: 0 auto;
     text-align: center;
     padding: 2rem 0 2rem 0;
 }
@@ -80,7 +80,7 @@ main {
     width: 70%;
     margin: 0 auto;
     margin-bottom: 2rem;
-    margin-top: 4rem;
+    margin-top: 6rem;
     
 }
 
@@ -109,7 +109,6 @@ article {
 article:nth-of-type(3) {
     border-bottom: 0.1px solid grey;
     border-top: 0.1px solid grey;
-    padding: -2rem;
 }
 
 #intro-container {
@@ -118,17 +117,13 @@ article:nth-of-type(3) {
     margin-top: 2rem;
     font-size: 0;
     margin-bottom: 0;
-    padding: 0;
     border-bottom: 0.1px solid grey;
+    background: linear-gradient(to right, #c5192d 50%, transparent 50%) no-repeat;
 }
-
-
-
 #intro-container > div:first-of-type {
     width: 45%;
     vertical-align: middle;
     display: inline-block;
-    background-color: #c5192d;
     padding-left: 5%;
     margin: 0;
     border:0;
