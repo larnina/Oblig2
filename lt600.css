@@ -41,6 +41,7 @@ h1, h2, h3 {
 
 h1 {
     font-size: 4rem;
+    padding: 2rem 2rem 0 2rem;
 }
 
 h2 {
@@ -52,19 +53,17 @@ header {
     background-image: url('assets/img/studentsbg.png');
     background-attachment: fixed;
     background-position: top;
-    background-size: cover;  
-    margin-bottom: 4rem;
-    top: 4rem;
+    background-size: cover;
+    position: relative;
 }
 
 header > div {
+    position: absolute;
+    bottom: -4rem;
+    left: 2.5%;
     background-color: #c5192d;   
-    position: relative;
-    top: 6rem;
-    padding: 2rem 0 2rem 0;
-    color: white;
+    color: #ffffff;
     width: 95vw; 
-    margin: auto;
     text-align: center;
 }
 
@@ -74,7 +73,7 @@ main {
     width: 95vw;
     margin: auto;
     margin-bottom: 2rem;
-    margin-top: 2rem;
+    margin-top: 6em;
 }
 
 footer {
@@ -96,10 +95,6 @@ article:nth-child(2) {
 
 img {
     width: 100%;
-}
-
-#intro-container {
-    margin-bottom: 2rem;
 }
 
 #intro-container {
