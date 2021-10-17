@@ -37,6 +37,7 @@ p {
 
 h1, h2, h3 {
     font-family: 'montserratbold', sans-serif;
+    
 }
 
 h1 {
@@ -63,7 +64,6 @@ header > div {
     left: 15%;
     color: white;
     width: 70%;
-    margin: auto;
     text-align: center;
     padding: 2rem 0 2rem 0;
 }
@@ -71,7 +71,10 @@ header > div {
 header > div p {
     display: block;
     margin: auto;
-    padding: 0 0.5rem 0 0.5rem;
+}
+
+header > div > h1 {
+    padding: 2rem 2rem 0 2rem;
 }
 
 main {
@@ -81,7 +84,6 @@ main {
     margin: 0 auto;
     margin-bottom: 2rem;
     margin-top: 6rem;
-    
 }
 
 footer {
@@ -93,14 +95,12 @@ footer {
     padding: 2rem 0 2rem 0;
 }
 
-
 footer > p {
-    display: block;
     margin: auto;
 }
 
 article {
-    padding: 2rem;
+    padding: 1rem;
     display: inline-block;
     margin: 0 auto;
     font-size: 0;
@@ -114,32 +114,31 @@ article:nth-of-type(3) {
 #intro-container {
     content: " ";
     display: block;
-    margin-top: 2rem;
     font-size: 0;
     margin-bottom: 0;
-    padding: 2rem;
     border-bottom: 0.1px solid grey;
     background: linear-gradient(to right, #c5192d 50%, transparent 50%) no-repeat;
 }
-
-
 
 #intro-container > div:first-of-type {
     width: 45%;
     vertical-align: middle;
     display: inline-block;
-    padding-left: 5%;
-    margin: 0;
-    border:0;
+    padding-right: 10%;
 }
 
 #intro-container > div:nth-of-type(2)  {
     width: 45%;   
     vertical-align: middle;
     display: inline-block;
-    font-size: 16px;
-    line-height: 1.5;
-    padding-left: 5%;
+    font-size: 1.2rem;
+}
+
+article:nth-child(2) > div, article:nth-child(4) > div {   
+    width: 45%;
+    vertical-align: middle;
+    display: inline-block;
+    padding-right: 10%;
 }
 
 article:nth-child(2) > img, article:nth-child(4) > img {
@@ -147,22 +146,13 @@ article:nth-child(2) > img, article:nth-child(4) > img {
    
     vertical-align: top;
     display: inline-block;
-    padding-left: 5%;
-}
-
-article:nth-child(2) > div, article:nth-child(4) > div {   
-    width: 45%;
- 
-    vertical-align: middle;
-    display: inline-block;
-    padding-right: 5%;
 }
 
 article:nth-child(3) > img {
     width: 45%;
     vertical-align: top;
     display: inline-block;
-    padding-right: 5%;
+    padding-right: 10%;
 }
 
 article:nth-child(3) > div {
